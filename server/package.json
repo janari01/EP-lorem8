@@ -12,13 +12,13 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "dotenv": "^17.3.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "express-session": "^1.19.0",
     "mysql2-promise": "^0.1.4",
     "passport": "^0.7.0",
-    "passport-google-oauth20": "^2.0.0",
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
