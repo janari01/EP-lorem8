@@ -8,13 +8,13 @@ const passport = require('passport');
 const session = require('express-session');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
-app.use(cors({
-  origin: true,
-  credentials: true
-}))
+// app.use(cors({
+//   origin: true,
+//   credentials: true
+// }))
 
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
+// app.use(bodyParser.urlencoded({ extended: true }))
+// app.use(bodyParser.json())
 app.use(session({
   secret: 'abc',
   resave: false,
