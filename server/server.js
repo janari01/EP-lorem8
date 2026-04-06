@@ -34,7 +34,7 @@ passport.deserializeUser((obj, done) => {
 passport.use(new GoogleStrategy({
   clientID: 123,
   clientSecret: 123,
-  callbackURL: 'https://ep-lorem8.vercel.app/auth/google/callback'
+  callbackURL: 'http://localhost:3000/auth/google/callback'
 }, (accessToken, refreshToken, profile, done) => {
   // Lisame vajadusel andmebaasi
   return done(null, profile);
